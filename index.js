@@ -1,6 +1,6 @@
 module.exports = BeforeUnload;
 function BeforeUnload() {}
-BeforeUnload.prototype.view = __dirname;
+BeforeUnload.prototype.name = 'd-before-unload';
 
 BeforeUnload.prototype.create = function(model, dom) {
   dom.on('beforeunload', window, function(e) {
