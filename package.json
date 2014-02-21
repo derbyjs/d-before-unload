@@ -1,9 +1,12 @@
 {
   "name": "d-before-unload",
   "description": "Derby component to stop page from unloading when it has pending operations",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
-  "keywords": ["derby", "component"],
+  "keywords": [
+    "derby",
+    "component"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/codeparty/d-before-unload.git"
