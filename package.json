@@ -1,7 +1,7 @@
 {
   "name": "d-before-unload",
   "description": "Derby component to stop page from unloading when it has pending operations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "keywords": [
     "derby",
