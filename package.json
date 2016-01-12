@@ -9,13 +9,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/codeparty/d-before-unload.git"
+    "url": "git://github.com/derbyjs/d-before-unload.git"
   },
   "bugs": {
-    "url": "https://github.com/codeparty/d-before-unload/issues"
+    "url": "https://github.com/derbyjs/d-before-unload/issues"
   },
   "author": "Nate Smith",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "homepage": "https://github.com/derbyjs/d-before-unload#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
