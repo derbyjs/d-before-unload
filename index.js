@@ -12,7 +12,7 @@ function listenerFn(model) {
     if (!model.hasWritePending()) return;
     var confirmationMessage = model.get('message') ||
       'You have unsaved changes. Do you want to leave this page and discard your changes?';
-    e.returnValue = confirmationMessage;
-    return confirmationMessage;
+    (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+    return confirmationMessage; //Webkit, Safari, Chrome etc.
   };
 }
